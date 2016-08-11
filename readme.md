@@ -49,4 +49,4 @@ String to insert in place of the removed substring.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](http://sindresorhus.com), [Roy Reveltas](https://github.com/revelt/)

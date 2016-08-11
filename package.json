@@ -36,5 +36,8 @@
   "devDependencies": {
     "ava": "*",
     "xo": "*"
+  },
+  "dependencies": {
+    "array-from": "^2.1.1"
   }
 }

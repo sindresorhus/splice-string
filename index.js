@@ -1,8 +1,8 @@
 'use strict';
-var toArray = require('lodash.toarray');
+const toArray = require('lodash.toarray');
 
-module.exports = function (str, i, count, insert) {
-	var arr = toArray(str);
+module.exports = (str, i, count, insert) => {
+	const arr = toArray(str);
 	arr.splice(i, count, insert);
 	return arr.join('');
 };

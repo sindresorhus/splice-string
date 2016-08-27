@@ -13,7 +13,7 @@ $ npm install --save splice-string
 ## Usage
 
 ```js
-var spliceString = require('splice-string');
+const spliceString = require('splice-string');
 
 spliceString('unicorn', 3, 4, 'verse');
 //=> 'universe'
@@ -52,4 +52,4 @@ String to insert in place of the removed substring.
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)

@@ -17,6 +17,9 @@ var spliceString = require('splice-string');
 
 spliceString('unicorn', 3, 4, 'verse');
 //=> 'universe'
+
+spliceString('❤️🐴🐴', 1, 1, '🦄');
+//=> '❤️🦄🐴'
 ```
 
 

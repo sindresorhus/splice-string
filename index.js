@@ -1,4 +1,8 @@
 'use strict';
+var toArray = require('lodash.toarray');
+
 module.exports = function (str, i, count, insert) {
-	return str.slice(0, i) + (insert || '') + str.slice(i + count);
+	var arr = toArray(str);
+	arr.splice(i, count, insert);
+	return arr.join('');
 };

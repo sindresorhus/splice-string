@@ -1,6 +1,6 @@
 {
 	"name": "splice-string",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"description": "Remove or replace part of a string like `Array#splice`",
 	"license": "MIT",
 	"repository": "sindresorhus/splice-string",

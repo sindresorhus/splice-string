@@ -1,46 +1,43 @@
 {
-  "name": "splice-string",
-  "version": "2.0.0",
-  "description": "Remove or replace part of a string like Array#splice",
-  "license": "MIT",
-  "repository": "sindresorhus/splice-string",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "splice",
-    "string",
-    "str",
-    "split",
-    "modify",
-    "mutate",
-    "replace",
-    "insert",
-    "add",
-    "remove",
-    "rm",
-    "delete",
-    "del"
-  ],
-  "dependencies": {
-    "lodash.toarray": "^4.4.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "splice-string",
+	"version": "2.0.0",
+	"description": "Remove or replace part of a string like `Array#splice`",
+	"license": "MIT",
+	"repository": "sindresorhus/splice-string",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"splice",
+		"string",
+		"split",
+		"modify",
+		"mutate",
+		"replace",
+		"insert",
+		"add",
+		"remove",
+		"delete"
+	],
+	"dependencies": {
+		"lodash.toarray": "^4.4.0"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"xo": "^0.38.2"
+	}
 }

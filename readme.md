@@ -2,18 +2,18 @@
 
 > Remove or replace part of a string like `Array#splice`
 
+It correctly handles slicing strings with emoji.
 
 ## Install
 
 ```
-$ npm install --save splice-string
+$ npm install splice-string
 ```
-
 
 ## Usage
 
 ```js
-const spliceString = require('splice-string');
+import spliceString from 'splice-string';
 
 spliceString('unicorn', 3, 4, 'verse');
 //=> 'universe'
@@ -22,12 +22,11 @@ spliceString('❤️🐴🐴', 1, 1, '🦄');
 //=> '❤️🦄🐴'
 ```
 
-
 ## API
 
-### spliceString(input, index, count, [insert])
+### spliceString(string, index, count, insert?)
 
-#### input
+#### string
 
 Type: `string`
 
@@ -48,8 +47,3 @@ Number of characters to remove.
 Type: `string`
 
 String to insert in place of the removed substring.
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
